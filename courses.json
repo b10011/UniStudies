@@ -1,0 +1,134 @@
+{
+	"TIETA6 Tietorakenteet": {
+		info: "",
+		contact_info: "Martti.Juhola@uta.fi",
+		registration: {
+			start: null,
+			end: null,
+			completed: true,
+			chosen: true
+		},
+		link_teaching_schedule: "https://www10.uta.fi/opas/opetusohjelma/marjapuuro.htm?id=31963",
+		link_course_site: "http://www.sis.uta.fi/~tira/",
+		link_homework_site: null,
+		lecture_data: {
+			required_attendance: null,
+			dates: [
+				{
+					place: "",
+					date: null
+				}
+			]
+		},
+		exercises {
+			required_exercises: 30,
+			group_data: {
+				required_attendance: 0,
+				dates: [
+					{
+						place: "",
+						date: null,
+						exercises_done: 0
+					}
+				]
+			}
+		},
+		exam: {
+			epoch: 1486044000000,
+			date: "02.02.2017 16:00",
+			info: "4 tuntia, D10AB päätalo"
+		},
+		project_work: [
+			{
+				title: "Harjoitustyö",
+				info: "",
+				link_assigment: "http://www.sis.uta.fi/~tira/coursework/",
+				epoch: 1485899999000,
+				date: "31.01.2017 23:59"
+			}
+		],
+		ects: 10
+	},
+	"MTTTP1 Tilastotieteen johdantokurssi": {},
+	"KKENLUK Introduction to Academic English": {},
+	"TIETA7 Tietokantaohjelmointi": {
+		info: "Something",
+		contact_info: "marko.junkkari@sis.uta.fi",
+		registration: {
+			start: null,
+			end: null,
+			completed: true,
+			chosen: true
+		},
+		link_teaching_schedule: "https://www10.uta.fi/opas/opetusohjelma/marjapuuro.htm?id=32019",
+		link_course_site: "http://www.uta.fi/sis/tie/tiko/index.html",
+		link_homework_site: "https://weto.sis.uta.fi/weto5/viewTask.action?taskId=495&tabId=0&dbId=2",
+		lecture_data: {
+			required_attendance: 0,
+			dates: [
+				{ title: "Yleistä", place: "Pinni A1081", date: "09.01.2017", time: "14-16", attended: false },
+				{ title: "Relaatiomalli", place: "Pinni A1081", date: "11.01.2017", time: "14-16", attended: false },
+				{ title: "SQL", place: "Pinni A1081", date: "16.01.2017", time: "14-16", attended: false },
+				{ title: "Optimointi/indeksointi", place: "Pinni A1081", date: "18.01.2017", time: "14-16", attended: false },
+				{ title: "ER", place: "Pinni A1081", date: "23.01.2017", time: "14-16", attended: false },
+				{ title: "PHP", place: "Pinni A1081", date: "25.01.2017", time: "14-16", attended: false },
+				{ title: "Tapahtumat", place: "Pinni A1081", date: "30.01.2017", time: "14-16", attended: false },
+				{ title: "Lukitukset", place: "Pinni A1081", date: "01.02.2017", time: "14-16", attended: false },
+				{ title: "JDBC", place: "Pinni A1081", date: "06.02.2017", time: "14-16", attended: false },
+				{ title: "SQL ekstensioita", place: "Pinni A1081", date: "08.02.2017", time: "14-16", attended: false },
+				{ title: "Funktionaaliset riippuvuudet", place: "Pinni A1081", date: "13.02.2017", time: "14-16", attended: false },
+				{ title: "Normalisointi", place: "Pinni A1081", date: "15.02.2017", time: "14-16", attended: false },
+				{ title: "PL-kielet/trikkerit", place: "Pinni A1081", date: "20.02.2017", time: "14-16", attended: false },
+				{ title: "XML perusteet", place: "Pinni A1081", date: "22.02.2017", time: "14-16", attended: false },
+				{ title: "Oliokannat, NoSQL-kannat", place: "Pinni A1081", date: "27.02.2017", time: "14-16", attended: false },
+				{ title: "Kertausta", place: "Pinni A1081", date: "01.03.2017", time: "14-16", attended: false }
+			]
+		},
+		exercises: {
+			info: "Ei pakollisia, saa hyvitystä tenttiin, läsnäolosta ylimääräinen piste",
+			required_exercises: 0,
+			group_data: {
+				required_attendance: null,
+				dates: [
+					{ place: "Pinni B0039", date: "17.01.2017 14-16", exercises_done: 0 },
+					{ place: "Pinni B0039", date: "24.01.2017 14-16", exercises_done: 0 },
+					{ place: "Pinni B0039", date: "31.01.2017 14-16", exercises_done: 0 },
+					{ place: "Pinni B0039", date: "07.02.2017 14-16", exercises_done: 0 },
+					{ place: "???", date: "16.02.2017 12-14", exercises_done: 0 },
+					{ place: "Pinni B0039", date: "21.02.2017 14-16", exercises_done: 0 },
+					{ place: "Pinni B0039", date: "28.02.2017 14-16", exercises_done: 0 },
+					{ place: "Pinni B0039", date: "07.02.2017 14-16", exercises_done: 0 }
+				]
+			}
+		},
+		exam: {
+			title: "Tentti",
+			epoch: 1489406400000,
+			date: "13.03.2017 14:00",
+			info: "3 tuntia",
+			place: "Pinni B1100"
+		},
+		project_work: [
+			{
+				title: "Harjoitustyö (suunnittelu)",
+				info: "",
+				link_assigment: "",
+				epoch: 1488405599000,
+				date: "01.03.2017 23:59"
+			},
+			{
+				title: "Harjoitustyö (lopullinen)",
+				info: "",
+				link_assigment: "",
+				epoch: 1493157599000,
+				date: "25.04.2017 23:59"
+			}
+		],
+		ects: 10
+	},
+	"KKVE1 Venäjä I": {},
+	"ITIP4 Pelit ja pelillisyys": {},
+	"TIETA11 Ohjelmoinnin tekniikka C++": {},
+	"TIETA8 Software Engineering": {},
+	"TIEP3 Tietokantojen perusteet": {}
+}

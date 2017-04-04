@@ -1,0 +1,17 @@
+course_state == 0 && registration.beginning > current_time
+Odottaa rekisteröitymisen aukeamista	glyphicon glyphicon-time
+
+course_state == 0 && registration.completed == true
+Ilmottauduttu							glyphicon glyphicon-send
+
+course_state == 0 && registration.completed == true && registration.end < current_time
+Odottaa tietoa pääsystä					glyphicon glyphicon-hourglass
+
+course_state == -1
+Ei päästy								glyphicon glyphicon-remove
+
+course_state == 1
+Kesken									glyphicon glyphicon-refresh
+
+course_state == 2
+Suoritettu								glyphicon glyphicon-ok

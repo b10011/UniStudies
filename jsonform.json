@@ -1,0 +1,92 @@
+{
+	"Course id": {
+		info: "Course information, free form",
+		course_name: "Course name",
+		contact_email: "Email",
+		contact_room: "Lecturer's workroom",
+		registration: {
+			beginning: "Beginning of registration, epoch",
+			end: "End of registration, epoch",
+			completed: "Have you applied for the course, boolean"
+		},
+		course_state: "-1 = didnt get course; 0 = no info; 1 = got course; 2 = course completed",
+		link_teaching_schedule: "Teaching schedule link (marjapuuro link)",
+		link_course_site: "Course site link (ex. moodle)",
+		link_homework_site: "Homework site link (ex. weto)",
+		link_other: [
+			["Link name", "Link tooltip", "Link address"],
+			...
+		],
+		course_periods: [ "Array of periods as integer 1-4" ],
+		lecture_data: {
+			info: "Some info about the lectures",
+			required_attendance: "How many times you need to attend the lectures",
+			lectures: [
+				{
+					title: "Title of the lecture",
+					place: "Location (ex. B1100)",
+					epoch: "Date of the lecture",
+					length: "Length of the group, milliseconds",
+					attended: "Boolean, did you attend",
+					compensated: "Boolean, have you read lecture material as compensation of not going"
+				},
+				
+				...
+			]
+		},
+		group_data: {
+			info: "Info about the exercise groups",
+			required_attendance: "How many times you need to attend lectures",
+			required_exercises: "How many exercises you need to complete",
+			groups: [
+				{
+					title: "Title of the group",
+					info: "Info of the group (for example small homeworks like in basics of Russian)",
+					place: "Location (ex. B1100)",
+					epoch: "Epoch",
+					length: "Length of the group, milliseconds",
+					exercises_done: "Number, how many points you got"
+				},
+				
+				...
+			]
+		},
+		exam: {
+			title: "Title of exam",
+			place: "Location of the exam",
+			info: "Extra info of the exam",
+			epoch: "Epoch time",
+			length: "Length of the exam, milliseconds",
+			completed: "Boolean, if the projectwork has been completed"
+		},
+		projectwork_data: {
+			info: "Information of the projectworks (ex. only 2 out of 3 must be done)",
+			projectworks: [
+				{
+					title: "Title of the projectwork",
+					info: "Info of the projectwork",
+					link_assignment: "Link to the assignment material",
+					epoch: "Epoch time when the projectwork must be returned",
+					completed: "Boolean, if the projectwork has been completed"
+				},
+				
+				...
+			]
+		},
+		homework_data: {
+			info: "Information of all homeworks",
+			homeworks: [
+				{
+					title: "Title of the homework",
+					info: "Description of homework",
+					link_assignment: "Link to the assignment (ex. moodle)",
+					epoch: "Epoch of the deadline",
+					completed: "Boolean, if the homework has been completed"
+				}
+			]
+		},
+		ects: "Number of ECTS you gain"
+	},
+	
+	...
+}

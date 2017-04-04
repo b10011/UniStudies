@@ -1,0 +1,78 @@
+div.container {
+	padding-top: 20px;
+	max-width: 800px;
+}
+
+span.navbar-brand {
+	margin-top: -2px;
+	margin-left: -5px !important;
+}
+
+span.navbar-brand > span.glyphicon {
+	top: 2px;
+	left: -5px;
+	color: #555;
+}
+
+a.btn-glyphicon > span.glyphicon {
+	top: 2px;
+	left: -5px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+div.clickable {
+	cursor: pointer;
+}
+
+div.coursedataholder > div {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+span.timebadge {
+	width: 115px;
+	padding: 14px;
+	margin-top: -10px;
+	margin-left: -14px;
+	margin-right: 14px !important;
+	border-right: 1px solid #ddd;
+	border-radius: 0;
+	background: none;
+	font-weight: normal;
+	text-align: left;
+	color: #333;
+}
+
+span.locationbadge {
+	border-radius: 5px;
+	background-color: #5bc0de;
+	padding: 8px;
+	margin-top: -4px;
+	margin-right: -9px;
+}
+
+li.pastevent, li.pastevent > span.timebadge {
+	background-color: #fafafa;
+	color: #777;
+}
+
+li.pastevent > span.locationbadge {
+	background-color: #a9deef;
+}
+
+span.coursestate {
+	font-size: 16px;
+	padding: 10px;
+	margin-top: -10px;
+	margin-right: -12px;
+}
+
+a.showallbtn {
+	text-align: center;
+	border-radius: 0px 0px 4px 4px;
+}
+
+.spacer {
+	margin-bottom: 10px;
+}
